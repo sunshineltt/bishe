@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="">
+<head>
+	<meta charset="UTF-8">
+	<title>商品详情页</title>
+
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<script src="js/jquery.js"></script>
+<script src="js/index.js"></script>
+</head>
+<body>
+<!-- top开始 -->
+  <section class="topbox">
+    <div class="topnav">
+      <div class="content clearfix">
+        <span class="full-left">
+        <span id='region'>
+          <i class="icon iconfont">&#xe608;</i>
+          <a href="" class='topnav-region'>
+            上海
+          </a>
+          <i class="iconfont"></i>
+        </span>
+        </span>
+        "满百包邮（环郊外）"
+        <a href="" class='link'>星夜达</a>
+
+        <ul class="full-right">
+          <li>
+            <a class="bianse" href="denglu.html">[登录]</a> , 
+            <a class="bianse" href="denglu.html">[注册有惊喜]</a>
+          </li>
+          <li>|</li>
+          <li>
+            <a href="">果园公告</a> 
+          </li>
+          <li>|</li>
+          <li>
+            <a class="bianse" href="">卷卡兑换</a>
+          </li>
+          <li>|</li>
+          <li>
+            <i class="icon iconfont">&#xe60d;</i>
+            <a href="">手机果园</a>
+          </li>
+          <li>|</li>
+          <li>
+            <i class="icon iconfont">&#xe602;</i>
+            <a href="">400-720-0770</a>
+          </li>
+           
+          
+        </ul>
+      </div>
+      
+    </div><!-- top-nav结束 -->
+    <div class="content">
+      <nav class='navbar'>
+        <div class="container-fluid">
+          <div class="nav-left">
+            <a href="index.html" class="nav-left-logo">
+              
+            </a>
+          </div>
+       
+           <ul class="nav-middle">
+            <li>
+              <a href="index.html">
+                <p class=nav-middle-up>首页</p>
+                <p class='nav-middle-bottom'>Home</p>
+              </a>
+            </li>
+            <li>
+              <a href="xianguo.html">
+                <p  class=nav-middle-up>鲜果</p>
+                <p class='nav-middle-bottom'>Fruit</p>
+              </a>
+            </li>
+            <li>
+              <a href="shengxian.html">
+                <p  class=nav-middle-up>生鲜</p>
+                <p class='nav-middle-bottom'>Fresh</p>
+              </a>
+            </li>
+            <li>
+              <a href="lipin.html">
+                <p  class=nav-middle-up>礼品</p>
+                <p class='nav-middle-bottom'>Gift</p>
+              </a>
+            </li>
+           
+            <li>
+              <a href="denglu.html" style='border-right:none;'>
+                <p  class=nav-middle-up>会员中心</p>
+                <p class='nav-middle-bottom'>VIP Club</p> 
+              </a>
+            </li>
+          </ul>
+          <div class="nav-right">
+            <div class="nav-right-search">
+              <div class="nav-right-left">
+                <input type="text" placeholder="请输入关键字" value='橙'>
+                <botton class="search">
+                  <i class="icon iconfont">&#xe612;</i>
+                </botton>
+                <div class="searchhot">
+                  "热门:"
+                  <a href="">草莓</a>
+                  <a href="">芒果</a>
+                  <a href="">奇异果</a>
+                  <a href="">苹果</a>
+                </div>
+              </div>
+              <div class="nav-right-right">
+                <i class="iconfont che">&#xe66d;</i>
+              </div>
+            </div><!-- nav-right2-search结束 -->
+          </div><!-- nav-right2结束 -->
+        </div><!-- container-fluid结束 -->
+      </nav><!-- nav结束 -->
+    </div><!-- top-content结束 -->
+  </section>
+
+<!-- 详情信息 -->
+  <div class="typepage">
+  		<div class="bread">
+  			<strong><a href="" class="home">首页&gt;</a></strong>
+  			<span><a href="" class="feilei">全部鲜果&gt;</a></span>
+  			<span class="xiangxi">南汇玉菇甜瓜</span>
+  		</div>
+
+  		<div id="myfoucs">
+  			<ul class="xiaotu">
+  				<li>
+  					<a href=""><img src="images/qita/xq11.jpg"></a>
+  				</li>
+  				<li>
+  					<a href=""><img src="images/qita/xq22.jpg"></a>
+  				</li>
+  				<li>
+  					<a href=""><img src="images/qita/xq33.jpg"></a>
+  				</li>
+  			</ul>
+  			<ul class="datu">
+  				<li>
+  					<a href=""><img src="images/qita/xq11.jpg"></a>
+  				</li>
+  				<li>
+  					<a href=""><img src="images/qita/xq22.jpg"></a>
+  				</li>
+  				<li>
+  					<a href=""><img src="images/qita/xq33.jpg"></a>
+  				</li>		
+  			</ul>	
+  		</div>
+  		<div class="spxx">
+  			<div class="goumai-title">
+  				<h3>南汇玉菇甜瓜</h3>
+  				<p class="title-description">
+  					一口玉菇 上海小姑娘的甜
+  				</p>
+  			</div>
+
+  			<div class="spprice">
+  				<div class="price01">
+  					<div class="price01-left">
+  						<h5>果园价</h5>
+  						<span>$49.90</span>
+  					</div>
+  					<div class="price01-right">
+  						<!-- <div class="weixin">
+  							<img src="images/apu.png">
+  						</div> -->
+  					</div>
+  				</div>
+          <div class="guige">
+            <h5>规格</h5>
+            <div class="zhuang">
+              <span class="cur">1个</span>
+              <span>2个</span>
+
+            </div>
+          </div>
+          <div class="send">
+            <h5>配送至</h5>
+            <div class="btn-group">
+              <select>
+                <option>上海</option>
+                <option>北京</option>
+                <option>上海</option>
+                <option>广州</option>
+                <option>深圳</option>
+
+              </select>
+              <span class="have">有货</span>
+            </div>
+          </div>
+          <div class="number">
+            <h5>数量</h5>
+            <div class="numjia">
+              <span class="jian">-</span>
+              <input type='tel' value='1' id="add">
+              <span id="add1">+</span>
+            </div>
+          </div>
+          <div class="buy"> 
+            <div class="buy-left">
+              <a href="tijiaodingdan1.html" target='_blank'>立即购买</a>
+            </div>
+            <div class="buy-right">
+              <a href="" >加入购物车 </a>
+              <script>
+                var buy=document.getElementsByClassName("buy-right")[0];
+                buy.onclick=function(){
+                  alert("宝贝已经成功加入购物车，等着您带回家哦！")
+                }
+              </script>
+            </div>
+          </div>
+  			</div>
+
+        <div class="spxx-bottom">
+          <div class="xx1">
+            <h5>甜度</h5>
+            <span><img src="images/qita/circle-3.png"></span>
+          </div>
+          <div class="xx1">
+            <h5>产地</h5>
+            <span>中国</span>
+          </div>
+          <div class="xx1">
+            <h5>存储方式</h5>
+            <span>0℃冷藏</span>
+          </div>
+          <div class="xx1">
+            <h5>说明</h5>
+            <span>商品实际重量存在误差（±5%）</span>
+          </div>
+          <div class="xx1">
+            <h5>备注</h5>
+            <span>2.6斤——3斤</span>
+          </div>
+          <div class="xx1">
+            <h5>商品编号</h5>
+            <span>2150521105</span>
+          </div>
+        </div>
+  		</div>
+  
+<!-- 商品的介绍 -->
+<div class="ass">
+  <div class="ass-left">
+    <div class="ass-left-fixed clearfix">
+      <span class="xuancur">商品简介</span>
+      <span>顾客评论</span>
+      <b class="pinlun"></b>
+    </div>
+
+    <ul class="good-con" style="z-index:5">
+      <li>
+        <img src="images/qita/xx1.jpg">
+        <img src="images/qita/xx2.jpg">
+        <img src="images/qita/xx3.jpg">
+        <img src="images/qita/xx4.jpg">
+        <img src="images/qita/xx5.jpg">
+        <img src="images/qita/xx6.jpg">
+        <img src="images/qita/xx7.jpg">
+        <img src="images/qita/xx8.jpg">
+        <img src="images/qita/xx9.jpg">
+        <img src="images/qita/xx10.jpg">
+        <img src="images/qita/xx11.jpg">
+        
+      </li>
+    </ul>  
+     <ul class="good-con">
+      <div class="pinglun-top">
+        <div class="pinglun-top-left">
+          <p class="yibai">100%</p>
+          <p>好平度</p>
+        </div>
+        <div class="pinglun-top-middle">
+          <div class="tiao1">
+            <div class="bucuo">不错呦</div>
+            <div class="jindu hao"></div>
+            <div class="baifenbi">100%</div>
+          </div>
+          <div class="tiao1">
+            <div class="bucuo">待提高</div>
+            <div class="jindu"></div>
+            <div class="baifenbi">100%</div>
+          </div>
+          <div class="tiao1">
+            <div class="bucuo">小失落</div>
+            <div class="jindu"></div>
+            <div class="baifenbi">100%</div>
+          </div>
+        </div>
+        <div class="pinglun-top-bottom">
+          <p>发布评价获取积分</p>
+          <p>APP上传图片并晒单即可获得20积分，前五名可获双倍积分</p>
+        </div>
+      </div>
+      <div class="pinglun-bottom">
+        <div class="pinglun-title">
+          <ul>
+            <li>
+              <input type="radio" checked>
+              全部评论
+            </li>
+            <li>
+              <input type="radio">
+              不错呦
+            </li>
+            <li>
+              <input type="radio">
+              待提高
+            </li>
+            <li>
+              <input type="radio">
+             小失落
+            </li>
+          </ul>
+        </div> 
+        <div class="pinglun-content clearfix">
+          <div class="pinglun1 clearfix">
+            <div class="pinglun1-left">
+              <img src="images/1index/use.jpg" alt="">
+              <p>142****1234</p>
+            </div>
+            <div class="pinglun1-right">
+              <ul class='clearfix'>
+                <li class='clearfix'>
+                  <p class="pingfen">评分</p>
+                  <p class="start">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                  </p>
+                </li>
+                 <li class='clearfix'>
+                  <p class="pingfen">内容</p>
+                  <p class="start">
+                  好评好评好评
+                  </p>
+                </li>
+                <li class='clearfix'>
+                  <p class="pingfen"></p>
+                  <p class="start">
+                   2016-04-23 08:10:27
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="pinglun1 clearfix">
+            <div class="pinglun1-left">
+              <img src="images/1index/use.jpg" alt="">
+              <p>152****1234</p>
+            </div>
+            <div class="pinglun1-right">
+              <ul class='clearfix'>
+                <li class='clearfix'>
+                  <p class="pingfen">评分</p>
+                  <p class="start">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                  </p>
+                </li>
+                 <li class='clearfix'>
+                  <p class="pingfen">内容</p>
+                  <p class="start">
+                   挺好的哦不错
+                  </p>
+                </li>
+                <li class='clearfix'>
+                  <p class="pingfen"></p>
+                  <p class="start">
+                   2016-04-21 18:10:27
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="pinglun1 clearfix">
+            <div class="pinglun1-left">
+              <img src="images/1index/use.jpg" alt="">
+              <p>142****1234</p>
+            </div>
+            <div class="pinglun1-right">
+              <ul class='clearfix'>
+                <li class='clearfix'>
+                  <p class="pingfen">评分</p>
+                  <p class="start">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                  </p>
+                </li>
+                 <li class='clearfix'>
+                  <p class="pingfen">内容</p>
+                  <p class="start">
+                   挺好的哦不错
+                  </p>
+                </li>
+                <li class='clearfix'>
+                  <p class="pingfen"></p>
+                  <p class="start">
+                   2016-04-13 08:10:27
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="pinglun1 clearfix">
+            <div class="pinglun1-left">
+              <img src="images/1index/use.jpg" alt="">
+              <p>142****1234</p>
+            </div>
+            <div class="pinglun1-right">
+              <ul class='clearfix'>
+                <li class='clearfix'>
+                  <p class="pingfen">评分</p>
+                  <p class="start">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                  </p>
+                </li>
+                 <li class='clearfix'>
+                  <p class="pingfen">内容</p>
+                  <p class="start">
+                   挺好的哦不错
+                  </p>
+                </li>
+                <li class='clearfix'>
+                  <p class="pingfen"></p>
+                  <p class="start">
+                   2016-04-23 08:10:27
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+           <div class="pinglun1 clearfix">
+            <div class="pinglun1-left">
+              <img src="images/1index/use.jpg" alt="">
+              <p>142****1234</p>
+            </div>
+            <div class="pinglun1-right">
+              <ul class='clearfix'>
+                <li class='clearfix'>
+                  <p class="pingfen">评分</p>
+                  <p class="start">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                  </p>
+                </li>
+                 <li class='clearfix'>
+                  <p class="pingfen">内容</p>
+                  <p class="start">
+                   挺好的哦不错
+                  </p>
+                </li>
+                <li class='clearfix'>
+                  <p class="pingfen"></p>
+                  <p class="start">
+                   2016-04-23 08:10:27
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+
+           <div class="pinglun1 clearfix">
+            <div class="pinglun1-left">
+              <img src="images/1index/use.jpg" alt="">
+              <p>142****1234</p>
+            </div>
+            <div class="pinglun1-right">
+              <ul class='clearfix'>
+                <li class='clearfix'>
+                  <p class="pingfen">评分</p>
+                  <p class="start">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                  </p>
+                </li>
+                 <li class='clearfix'>
+                  <p class="pingfen">内容</p>
+                  <p class="start">
+                   挺好的哦不错
+                  </p>
+                </li>
+                <li class='clearfix'>
+                  <p class="pingfen"></p>
+                  <p class="start">
+                   2016-04-23 08:10:27
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+           <div class="pinglun1 clearfix">
+            <div class="pinglun1-left">
+              <img src="images/1index/use.jpg" alt="">
+              <p>142****1234</p>
+            </div>
+            <div class="pinglun1-right">
+              <ul class='clearfix'>
+                <li class='clearfix'>
+                  <p class="pingfen">评分</p>
+                  <p class="start">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                  </p>
+                </li>
+                 <li class='clearfix'>
+                  <p class="pingfen">内容</p>
+                  <p class="start">
+                   挺好的哦不错
+                  </p>
+                </li>
+                <li class='clearfix'>
+                  <p class="pingfen"></p>
+                  <p class="start">
+                   2016-04-23 08:10:27
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+           <div class="pinglun1 clearfix">
+            <div class="pinglun1-left">
+              <img src="images/1index/use.jpg" alt="">
+              <p>142****1234</p>
+            </div>
+            <div class="pinglun1-right">
+              <ul class='clearfix'>
+                <li class='clearfix'>
+                  <p class="pingfen">评分</p>
+                  <p class="start">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                  </p>
+                </li>
+                 <li class='clearfix'>
+                  <p class="pingfen">内容</p>
+                  <p class="start">
+                   挺好的哦不错
+                  </p>
+                </li>
+                <li class='clearfix'>
+                  <p class="pingfen"></p>
+                  <p class="start">
+                   2016-04-23 08:10:27
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+           <div class="pinglun1 clearfix">
+            <div class="pinglun1-left">
+              <img src="images/1index/use.jpg" alt="">
+              <p>142****1234</p>
+            </div>
+            <div class="pinglun1-right">
+              <ul class='clearfix'>
+                <li class='clearfix'>
+                  <p class="pingfen">评分</p>
+                  <p class="start">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                  </p>
+                </li>
+                 <li class='clearfix'>
+                  <p class="pingfen">内容</p>
+                  <p class="start">
+                   挺好的哦不错
+                  </p>
+                </li>
+                <li class='clearfix'>
+                  <p class="pingfen"></p>
+                  <p class="start">
+                   2016-04-23 08:10:27
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+           <div class="pinglun1 clearfix">
+            <div class="pinglun1-left">
+              <img src="images/1index/use.jpg" alt="">
+              <p>142****1234</p>
+            </div>
+            <div class="pinglun1-right">
+              <ul class='clearfix'>
+                <li class='clearfix'>
+                  <p class="pingfen">评分</p>
+                  <p class="start">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                  </p>
+                </li>
+                 <li class='clearfix'>
+                  <p class="pingfen">内容</p>
+                  <p class="start">
+                   挺好的哦不错
+                  </p>
+                </li>
+                <li class='clearfix'>
+                  <p class="pingfen"></p>
+                  <p class="start">
+                   2016-04-23 08:10:27
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+           <div class="pinglun1 clearfix">
+            <div class="pinglun1-left">
+              <img src="images/1index/use.jpg" alt="">
+              <p>142****1234</p>
+            </div>
+            <div class="pinglun1-right">
+              <ul class='clearfix'>
+                <li class='clearfix'>
+                  <p class="pingfen">评分</p>
+                  <p class="start">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                  </p>
+                </li>
+                 <li class='clearfix'>
+                  <p class="pingfen">内容</p>
+                  <p class="start">
+                   挺好的哦不错
+                  </p>
+                </li>
+                <li class='clearfix'>
+                  <p class="pingfen"></p>
+                  <p class="start">
+                   2016-04-23 08:10:27
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+           <div class="pinglun1 clearfix">
+            <div class="pinglun1-left">
+              <img src="images/1index/use.jpg" alt="">
+              <p>142****1234</p>
+            </div>
+            <div class="pinglun1-right">
+              <ul class='clearfix'>
+                <li class='clearfix'>
+                  <p class="pingfen">评分</p>
+                  <p class="start">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                  </p>
+                </li>
+                 <li class='clearfix'>
+                  <p class="pingfen">内容</p>
+                  <p class="start">
+                   挺好的哦不错
+                  </p>
+                </li>
+                <li class='clearfix'>
+                  <p class="pingfen"></p>
+                  <p class="start">
+                   2016-04-23 08:10:27
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+           <div class="pinglun1 clearfix">
+            <div class="pinglun1-left">
+              <img src="images/1index/use.jpg" alt="">
+              <p>142****1234</p>
+            </div>
+            <div class="pinglun1-right">
+              <ul class='clearfix'>
+                <li class='clearfix'>
+                  <p class="pingfen">评分</p>
+                  <p class="start">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                  </p>
+                </li>
+                 <li class='clearfix'>
+                  <p class="pingfen">内容</p>
+                  <p class="start">
+                   挺好的哦不错
+                  </p>
+                </li>
+                <li class='clearfix'>
+                  <p class="pingfen"></p>
+                  <p class="start">
+                   2016-04-23 08:10:27
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </ul> 
+  </div>
+
+  <div class="ass-right">
+    <h5>最近浏览过的商品</h5>
+    <ul>
+      <li>
+        <a href="">
+          <div class="ass-right-left">
+            <img src="images/qita/llg1.jpg">
+          </div>
+          <div class="ass-right-right">
+            <h5>南汇玉菇甜瓜</h5>
+            <p>$49.90/1个</p>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+
+
+ 
+</body>
+</html>

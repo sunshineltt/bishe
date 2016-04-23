@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>鲜果页面</title>
+	<link rel="stylesheet" href="css/iconfont/iconfont.css">
+ 	<link rel="stylesheet" href="css/index.css">
+	<script src="js/index.js"></script>
+</head>
+<body>
+<!-- top开始 -->
+	<section class="topbox">
+		<div class="topnav">
+			<div class="content clearfix">
+				<span class="full-left">
+				<span id='region'>
+ 					<i class="icon iconfont">&#xe608;</i>
+					<a href="" class='topnav-region'>
+						上海
+					</a>
+					<i class="iconfont"></i>
+				</span>
+				</span>
+				"满百包邮（环郊外）"
+				<a href="" class='link'>星夜达</a>
+
+				<ul class="full-right">
+					<li>
+						<a class="bianse" href="">[登录]</a> , 
+						<a class="bianse" href="">[注册有惊喜]</a>
+ 					</li>
+					<li>|</li>
+					<li>
+						<a href="">果园公告</a> 
+					</li>
+					<li>|</li>
+					<li>
+						<a class="bianse" href="">卷卡兑换</a>
+					</li>
+					<li>|</li>
+					<li>
+						<i class="icon iconfont">&#xe60d;</i>
+						<a href="">手机果园</a>
+					</li>
+					<li>|</li>
+					<li>
+						<i class="icon iconfont">&#xe602;</i>
+						<a href="">400-720-0770</a>
+					</li>
+					 
+					
+				</ul>
+			</div>
+			
+		</div><!-- top-nav结束 -->
+		<div class="content">
+			<nav class='navbar'>
+				<div class="container-fluid">
+					<div class="nav-left">
+						<a href="" class="nav-left-logo">
+							
+						</a>
+					</div>
+			 
+					<ul class="nav-middle">
+						<li>
+							<a href="">
+								<p class=nav-middle-up>首页</p>
+								<p class='nav-middle-bottom'>Home</p>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<p  class=nav-middle-up>鲜果</p>
+								<p class='nav-middle-bottom'>Fruit</p>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<p  class=nav-middle-up>生鲜</p>
+								<p class='nav-middle-bottom'>Fresh</p>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<p  class=nav-middle-up>礼品</p>
+								<p class='nav-middle-bottom'>Gift</p>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<p  class=nav-middle-up>抢先啦！</p>
+								<p class='nav-middle-bottom'>Sale</p>
+							</a>
+						</li>
+						<li>
+							<a href="" style='border-right:none;'>
+								<p  class=nav-middle-up>会员中心</p>
+								<p class='nav-middle-bottom'>VIP Club</p> 
+							</a>
+						</li>
+ 					</ul>
+ 					<div class="nav-right">
+						<div class="nav-right-search">
+							<div class="nav-right-left">
+								<input type="text" placeholder="请输入关键字" value='橙'>
+								<botton class="search">
+									<i class="icon iconfont">&#xe612;</i>
+								</botton>
+								<div class="searchhot">
+									"热门:"
+									<a href="">草莓</a>
+									<a href="">芒果</a>
+									<a href="">奇异果</a>
+									<a href="">苹果</a>
+ 								</div>
+							</div>
+							<div class="nav-right-right">
+								<i class="iconfont che">&#xe66d;</i>
+							</div>
+ 						</div><!-- nav-right2-search结束 -->
+					</div><!-- nav-right2结束 -->
+ 				</div><!-- container-fluid结束 -->
+ 			</nav><!-- nav结束 -->
+ 		</div><!-- top-content结束 -->
+	</section>	
+	
+	<div class="content clearfix">
+		<div class="select clearfix">
+			<div class="oc clearfix">
+				<h5>种类</h5>
+				<div class="f-select clearfix">
+					<div class="p-select-left">
+						<a href="" class="active"><span class="qb">全部</span></a>
+					</div>
+					<div class="p-select-right">
+						<a href="">
+							<span>莲雾</span>
+						</a>
+						<a href="">
+							<span>木瓜</span>
+						</a>
+						<a href="">
+							<span>火龙果</span>
+						</a>
+						<a href="">
+							<span>榴莲</span>
+						</a>
+						<a href="">
+							<span>莲雾</span>
+						</a>
+						<a href="">
+							<span>芭乐</span>
+						</a>
+						<a href="">
+							<span>提子</span>
+						</a>
+						<a href="">
+							<span>柠檬</span>
+						</a>
+						<a href="">
+							<span>凤梨</span>
+						</a>
+						<a href="">
+							<span>树莓</span>
+						</a>
+						<a href="">
+							<span>苹果</span>
+						</a>
+						<a href="">
+							<span>芒果</span>
+						</a>
+						<a href="">
+							<span>西梅</span>
+						</a>
+						<a href="">
+							<span>蓝莓</span>
+						</a>
+						<a href="">
+							<span>山竹</span>
+						</a>
+						<a href="">
+							<span>荔枝</span>
+						</a>
+						<a href="">
+							<span>百香果</span>
+						</a>
+						<a href="">
+							<span>西瓜</span>
+						</a>
+						<a href="">
+							<span>梨</span>
+						</a>
+						<a href="">
+							<span>甜瓜</span>
+						</a>
+						<a href="">
+							<span>香蕉</span>
+						</a>
+						<a href="">
+							<span>柑橘</span>
+						</a>
+						<a href="">
+							<span>柚子</span>
+						</a>
+						<a href="">
+							<span>番茄</span>
+						</a>
+						<a href="">
+							<span>草莓</span>
+						</a>
+						<a href="">
+							<span>橙子</span>
+						</a>
+						<a href="">
+							<span>牛油果</span>
+						</a>
+						<a href="">
+							<span>龙眼</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="oc clearfix">
+				<h5>产地</h5>
+				<div class="f-select clearfix">
+					<div class="p-select-left">
+						<a href="" class="active"><span class="qb">全部</span></a>
+					</div>
+					<div class="p-select-right">
+						<a href="">
+							<span>中国</span>
+						</a>
+						<a href="">
+							<span>美国</span>
+						</a>
+						<a href="">
+							<span>智利</span>
+						</a>
+						<a href="">
+							<span>泰国</span>
+						</a>
+						<a href="">
+							<span>西班牙</span>
+						</a>
+						<a href="">
+							<span>新西兰</span>
+						</a>
+						<a href="">
+							<span>墨西哥</span>
+						</a>
+						<a href="">
+							<span>越南</span>
+						</a>
+						<a href="">
+							<span>菲律宾</span>
+						</a>
+						<a href="">
+							<span>马来西亚</span>
+						</a>
+						<a href="">
+							<span>澳大利亚</span>
+						</a>
+						<a href="">
+							<span>荷兰</span>
+						</a>
+						<a href="">
+							<span>以色列</span>
+						</a>
+						<a href="">
+							<span>其它</span>
+						</a>
+						 
+					</div>
+				</div>
+			</div>
+
+			<div class="oc clearfix">
+				<h5>规格</h5>
+				<div class="f-select clearfix">
+					<div class="p-select-left">
+						<a href="" class="active"><span class="qb">全部</span></a>
+					</div>
+					<div class="p-select-right">
+						<a href="">
+							<span>单品</span>
+						</a>
+ 					</div>
+				</div>
+			</div>
+
+			<div class="oc clearfix">
+				<h5>排序</h5>
+				<div class="f-select clearfix">
+					<div class="p-select-left">
+						<a href="" class="active"><span class="qb">默认</span></a>
+					</div>
+					<div class="p-select-right" style="background:#f0f0f0">
+						<a href="">
+							<span>价格从低到高</span>
+						</a>
+						<a href="">
+							<span>价格从高到低</span>
+						</a>
+ 					</div>
+				</div>
+			</div>
+
+
+
+		</div>
+		<div class="f-list clearfix">
+			<div class="list-part">
+				<ul>
+					<li>
+						<div class="wrap">
+							<div class="imgimg">
+								<a href="">
+									<img src="" alt="">
+								</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+
+</body>
+</html>
